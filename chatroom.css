@@ -1,0 +1,10 @@
+body {
+	position: centre;
+	background-color: cyan;
+	background-position: center;
+}
+
+#room {
+	height: 300px;
+	width: 250px;
+}
