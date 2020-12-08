@@ -9,7 +9,7 @@
 	<?php
 $db=mysqli_connect("localhost","root","password","dbname") or die("could not connect");
 
-$sql = "SELECT * FROM chats";
+$sql = "SELECT * FROM chats ORDER BY id DESC";
 $results = mysqli_query($db, $sql);
 
 while ($row = mysqli_fetch_array($results)) {
